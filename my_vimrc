@@ -1,4 +1,4 @@
-" Set line number
+" Set line numbers
 set nu
 " Search as you type
 set incsearch
