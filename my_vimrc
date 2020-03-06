@@ -1,1 +1,21 @@
-/home/nazmul/.vimrc
+" Set line number
+set nu
+" Search as you type
+set incsearch
+set showmatch
+set hlsearch
+" to ignore case in search
+set ignorecase
+" Set smartcase 
+set smartcase
+" Auto indent when adding a curly bracket, etc.
+set smartindent
+" Enable syntax highlighting
+syntax on
+" Tabs converted to a group of 4 spaces
+set shiftwidth =4
+set tabstop =4
+set expandtab
+set smarttab
+" Vim's line number display relatively
+set relativenumber
