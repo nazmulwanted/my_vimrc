@@ -19,3 +19,5 @@ set expandtab
 set smarttab
 " Vim's line number display relatively
 set relativenumber
+" file type plugin
+filetype plugin indent on
