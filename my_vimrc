@@ -21,3 +21,7 @@ set smarttab
 set relativenumber
 " file type plugin
 filetype plugin indent on
+
+" Disable tabstop, shifwidth, expandtab for Makefiles
+autocmd FileType make setlocal noexpandtab tabstop=8 shiftwidth=8 softtabstop=8
+
